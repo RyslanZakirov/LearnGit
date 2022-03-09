@@ -11,11 +11,19 @@ body{
     padding: 10px;
     border: 1px solid black;
     color: rebeccapurple;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
 
 .container .thirdBlock{
     padding: 20px;
-    border: 1px ridge orange;
+    border: 1px ridge rgb(97, 86, 65);
     color: thistle;
     font-size: large;
+}
+
+.container .secBlock:hover{
+    color: red;
+    text-decoration: line-through dashed black;
 }
