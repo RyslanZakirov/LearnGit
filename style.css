@@ -6,3 +6,34 @@ html, body{
 body{
     margin: 0px;
 }
+
+.container .secondGrid{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border: 3px double orange;
+    position:absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    display: grid;
+    grid-template-areas:"header header header"
+                        "main main footer"
+                        "main main footer";
+    gap: 15px;
+}
+
+.container .secondGrid > div{
+    border: 1px solid black;
+}
+
+.container .secondGrid #sOne{
+    grid-area: header;
+}
+
+.container .secondGrid #sTwo{
+    grid-area: main;
+}
+
+.container .secondGrid #sThree{
+    grid-area: footer;
+}
