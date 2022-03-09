@@ -6,3 +6,9 @@ html, body{
 body{
     margin: 0px;
 }
+
+.container .secBlock{
+    padding: 10px;
+    border: 1px solid black;
+    color: rebeccapurple;
+}
